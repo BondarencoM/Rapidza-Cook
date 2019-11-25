@@ -30,7 +30,7 @@
                                 <ColumnDefinition Width="auto"/>
                             </Grid.ColumnDefinitions>
                             <TextBlock FontSize="18" Text="{Binding Name}" />
-                            <Button Grid.Column="2" Padding="4 2" Content="In oven" />
+                            <Button Grid.Column="2" Padding="4 2" Content="In oven" Click="toRemove"/>
                         </Grid>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
